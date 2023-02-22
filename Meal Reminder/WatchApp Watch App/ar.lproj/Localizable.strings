@@ -1,0 +1,26 @@
+
+  Localizable.strings
+  WatchApp
+
+  Created by Aljwhra Alnasser on 18/06/1444 AH.
+  
+*/
+"Name?" = "الإسم؟";
+
+"Reminders" = "تذكيرات";
+
+"what Schedule suits you?" = "أي جدول يناسبك؟";
+
+"3 Meals" = "٣ وجبات";
+
+"4 Meals" = "٤ وجبات";
+
+"5 Meals" = "٥ وجبات";
+
+"12 Meals" = "١٢ وجبة";
+
+"When is your day starts?" = "متى يبدأ يومك؟";
+
+"Time" = "الوقت";
+
+"Save" = : "حفظ";

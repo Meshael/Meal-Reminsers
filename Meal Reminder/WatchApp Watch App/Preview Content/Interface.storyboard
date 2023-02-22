@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="21507" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="watch38"/>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="21501"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="fRD-1l-P1O">
+            <objects>
+                <controller id="IGi-cB-aGO"/>
+            </objects>
+            <point key="canvasLocation" x="-40" y="-39"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="fqc-5g-24k">
+            <objects>
+                <notificationController id="oVf-DP-Vvq">
+                    <items>
+                        <label alignment="left" text="Don't forget your meal" numberOfLines="3" id="d8l-If-z0p"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="HkY-y3-bno"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="d8l-If-z0p" id="yS1-02-WeP"/>
+                        <segue destination="aQq-7C-m1B" kind="relationship" relationship="dynamicNotificationInterface" id="TpD-b5-MvX"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="296" y="-51"/>
+        </scene>
+        <!--Dynamic Notification Interface Controller-->
+        <scene sceneID="Pmc-8w-JJN">
+            <objects>
+                <controller id="aQq-7C-m1B"/>
+            </objects>
+            <point key="canvasLocation" x="655" y="-51"/>
+        </scene>
+    </scenes>
+</document>

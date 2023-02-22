@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DE0CBC4296F3D5A0080B340 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0CBC3296F3D5A0080B340 /* Interface.storyboard */; };
+		D209B30A296DFE5D0024D0E8 /* WatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D209B309296DFE5D0024D0E8 /* WatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D209B30F296DFE5D0024D0E8 /* WatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209B30E296DFE5D0024D0E8 /* WatchAppApp.swift */; };
+		D209B311296DFE5D0024D0E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209B310296DFE5D0024D0E8 /* ContentView.swift */; };
+		D209B313296DFE5E0024D0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D209B312296DFE5E0024D0E8 /* Assets.xcassets */; };
+		D209B316296DFE5E0024D0E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D209B315296DFE5E0024D0E8 /* Preview Assets.xcassets */; };
+		D209B322296DFEE20024D0E8 /* ReminderApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D209B320296DFEE20024D0E8 /* ReminderApp.xcdatamodeld */; };
+		D209B324296DFF3C0024D0E8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209B323296DFF3C0024D0E8 /* Persistence.swift */; };
+		D209B328296E1A500024D0E8 /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209B327296E1A500024D0E8 /* AddReminderView.swift */; };
+		D2A1BDD8296E8DD30008AD25 /* WatchDatePicker in Frameworks */ = {isa = PBXBuildFile; productRef = D2A1BDD7296E8DD30008AD25 /* WatchDatePicker */; };
+		D2A1BDE1296E914C0008AD25 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2A1BDE0296E914C0008AD25 /* Localizable.strings */; };
+		D2A1BDE3296E97E70008AD25 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A1BDE2296E97E70008AD25 /* TimePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D209B30B296DFE5D0024D0E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D209B2FD296DFE5D0024D0E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D209B308296DFE5D0024D0E8;
+			remoteInfo = "WatchApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D209B31C296DFE5E0024D0E8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D209B30A296DFE5D0024D0E8 /* WatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0DE0CBC2296F3D350080B340 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0DE0CBC3296F3D5A0080B340 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		D209B303296DFE5D0024D0E8 /* WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D209B309296DFE5D0024D0E8 /* WatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D209B30E296DFE5D0024D0E8 /* WatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchAppApp.swift; sourceTree = "<group>"; };
+		D209B310296DFE5D0024D0E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D209B312296DFE5E0024D0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D209B315296DFE5E0024D0E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D209B321296DFEE20024D0E8 /* ReminderApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderApp.xcdatamodel; sourceTree = "<group>"; };
+		D209B323296DFF3C0024D0E8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D209B327296E1A500024D0E8 /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		D2A1BDE0296E914C0008AD25 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D2A1BDE2296E97E70008AD25 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D209B306296DFE5D0024D0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A1BDD8296E8DD30008AD25 /* WatchDatePicker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D209B2FC296DFE5D0024D0E8 = {
+			isa = PBXGroup;
+			children = (
+				D209B30D296DFE5D0024D0E8 /* WatchApp Watch App */,
+				D209B304296DFE5D0024D0E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D209B304296DFE5D0024D0E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D209B303296DFE5D0024D0E8 /* WatchApp.app */,
+				D209B309296DFE5D0024D0E8 /* WatchApp Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D209B30D296DFE5D0024D0E8 /* WatchApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				D209B323296DFF3C0024D0E8 /* Persistence.swift */,
+				D209B320296DFEE20024D0E8 /* ReminderApp.xcdatamodeld */,
+				D209B30E296DFE5D0024D0E8 /* WatchAppApp.swift */,
+				D209B310296DFE5D0024D0E8 /* ContentView.swift */,
+				D209B327296E1A500024D0E8 /* AddReminderView.swift */,
+				D209B312296DFE5E0024D0E8 /* Assets.xcassets */,
+				D209B314296DFE5E0024D0E8 /* Preview Content */,
+				D2A1BDE0296E914C0008AD25 /* Localizable.strings */,
+				D2A1BDE2296E97E70008AD25 /* TimePicker.swift */,
+			);
+			path = "WatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		D209B314296DFE5E0024D0E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0DE0CBC2296F3D350080B340 /* PushNotificationPayload.apns */,
+				D209B315296DFE5E0024D0E8 /* Preview Assets.xcassets */,
+				0DE0CBC3296F3D5A0080B340 /* Interface.storyboard */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D209B302296DFE5D0024D0E8 /* WatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D209B31D296DFE5E0024D0E8 /* Build configuration list for PBXNativeTarget "WatchApp" */;
+			buildPhases = (
+				D209B301296DFE5D0024D0E8 /* Resources */,
+				D209B31C296DFE5E0024D0E8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D209B30C296DFE5D0024D0E8 /* PBXTargetDependency */,
+			);
+			name = WatchApp;
+			productName = WatchApp;
+			productReference = D209B303296DFE5D0024D0E8 /* WatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D209B308296DFE5D0024D0E8 /* WatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D209B319296DFE5E0024D0E8 /* Build configuration list for PBXNativeTarget "WatchApp Watch App" */;
+			buildPhases = (
+				D209B305296DFE5D0024D0E8 /* Sources */,
+				D209B306296DFE5D0024D0E8 /* Frameworks */,
+				D209B307296DFE5D0024D0E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchApp Watch App";
+			packageProductDependencies = (
+				D2A1BDD7296E8DD30008AD25 /* WatchDatePicker */,
+			);
+			productName = "WatchApp Watch App";
+			productReference = D209B309296DFE5D0024D0E8 /* WatchApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D209B2FD296DFE5D0024D0E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D209B302296DFE5D0024D0E8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D209B308296DFE5D0024D0E8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D209B300296DFE5D0024D0E8 /* Build configuration list for PBXProject "WatchApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = D209B2FC296DFE5D0024D0E8;
+			packageReferences = (
+				D2A1BDD6296E8DD30008AD25 /* XCRemoteSwiftPackageReference "watch-date-picker" */,
+			);
+			productRefGroup = D209B304296DFE5D0024D0E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D209B302296DFE5D0024D0E8 /* WatchApp */,
+				D209B308296DFE5D0024D0E8 /* WatchApp Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D209B301296DFE5D0024D0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D209B307296DFE5D0024D0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE0CBC4296F3D5A0080B340 /* Interface.storyboard in Resources */,
+				D209B316296DFE5E0024D0E8 /* Preview Assets.xcassets in Resources */,
+				D2A1BDE1296E914C0008AD25 /* Localizable.strings in Resources */,
+				D209B313296DFE5E0024D0E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D209B305296DFE5D0024D0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A1BDE3296E97E70008AD25 /* TimePicker.swift in Sources */,
+				D209B311296DFE5D0024D0E8 /* ContentView.swift in Sources */,
+				D209B324296DFF3C0024D0E8 /* Persistence.swift in Sources */,
+				D209B322296DFEE20024D0E8 /* ReminderApp.xcdatamodeld in Sources */,
+				D209B328296E1A500024D0E8 /* AddReminderView.swift in Sources */,
+				D209B30F296DFE5D0024D0E8 /* WatchAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D209B30C296DFE5D0024D0E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D209B308296DFE5D0024D0E8 /* WatchApp Watch App */;
+			targetProxy = D209B30B296DFE5D0024D0E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D209B317296DFE5E0024D0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D209B318296DFE5E0024D0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D209B31A296DFE5E0024D0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4WDN95AL2J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aljwhra.WatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Debug;
+		};
+		D209B31B296DFE5E0024D0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4WDN95AL2J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aljwhra.WatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Release;
+		};
+		D209B31E296DFE5E0024D0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WDN95AL2J;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mashael.WatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D209B31F296DFE5E0024D0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WDN95AL2J;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mashael.WatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D209B300296DFE5D0024D0E8 /* Build configuration list for PBXProject "WatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209B317296DFE5E0024D0E8 /* Debug */,
+				D209B318296DFE5E0024D0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D209B319296DFE5E0024D0E8 /* Build configuration list for PBXNativeTarget "WatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209B31A296DFE5E0024D0E8 /* Debug */,
+				D209B31B296DFE5E0024D0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D209B31D296DFE5E0024D0E8 /* Build configuration list for PBXNativeTarget "WatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D209B31E296DFE5E0024D0E8 /* Debug */,
+				D209B31F296DFE5E0024D0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D2A1BDD6296E8DD30008AD25 /* XCRemoteSwiftPackageReference "watch-date-picker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freyaalminde/watch-date-picker";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D2A1BDD7296E8DD30008AD25 /* WatchDatePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2A1BDD6296E8DD30008AD25 /* XCRemoteSwiftPackageReference "watch-date-picker" */;
+			productName = WatchDatePicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D209B320296DFEE20024D0E8 /* ReminderApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D209B321296DFEE20024D0E8 /* ReminderApp.xcdatamodel */,
+			);
+			currentVersion = D209B321296DFEE20024D0E8 /* ReminderApp.xcdatamodel */;
+			path = ReminderApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D209B2FD296DFE5D0024D0E8 /* Project object */;
+}
